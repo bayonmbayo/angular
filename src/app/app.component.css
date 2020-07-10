@@ -1,0 +1,9 @@
+.active {
+    font-weight: bolder;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black
+}

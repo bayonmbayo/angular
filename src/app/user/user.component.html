@@ -1,0 +1,15 @@
+<div> Date venant de l'attribut {{dateService.date | date :"long"}}</div>
+<div>Date venant de la méthode {{dateService.getDate() | date : "long"}}</div>
+
+<!--
+  with drivern-Form
+  <input [(ngModel)]="userInput" />-->
+
+<!--Reactive Forms with one Input-->
+<!--<input [formControl]="userInput" /> Test : {{userInput.value}}-->
+
+<form [formGroup]="userForm">
+    <input formControlName="name" />
+    <input formControlName="email" />
+    <button type="submit" (click)="showForm()">Envoyer</button>
+</form>

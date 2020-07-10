@@ -1,0 +1,13 @@
+p {
+    font-size: monospace;
+}
+
+.submitRequest {
+    background: #217f8a;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.highlighted {
+    background-color: blue;
+}
